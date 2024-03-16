@@ -1,0 +1,75 @@
+2023-03-07 09:43:40.856  INFO 23172 --- [restartedMain] com.hcl.OwnerServiceApplication          : Starting OwnerServiceApplication using Java 16.0.1 on LP-PF22GKY9 with PID 23172 (C:\Users\bhavsar.siddh\Downloads\Teams Updated\Backend\OwnerService\OwnerService\target\classes started by bhavsar.siddh in C:\Users\bhavsar.siddh\Downloads\Teams Updated\Backend\OwnerService\OwnerService)
+2023-03-07 09:43:40.885  INFO 23172 --- [restartedMain] com.hcl.OwnerServiceApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-03-07 09:43:41.016  INFO 23172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-07 09:43:41.017  INFO 23172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-07 09:43:43.299  INFO 23172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-07 09:43:43.666  INFO 23172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 345 ms. Found 5 JPA repository interfaces.
+2023-03-07 09:43:44.262  INFO 23172 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3ef7932a-0fb6-3758-858b-a9890e4dc708
+2023-03-07 09:43:46.524  INFO 23172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-03-07 09:43:46.548  INFO 23172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-07 09:43:46.549  INFO 23172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-07 09:43:48.882  INFO 23172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-07 09:43:48.883  INFO 23172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7865 ms
+2023-03-07 09:43:49.570  INFO 23172 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-07 09:43:49.717  INFO 23172 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-07 09:43:50.144  INFO 23172 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-07 09:43:50.497  INFO 23172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-07 09:43:51.391  INFO 23172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-07 09:43:51.429  INFO 23172 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-07 09:43:53.304  INFO 23172 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-07 09:43:53.326  INFO 23172 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-07 09:43:55.472  WARN 23172 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-07 09:43:56.310  WARN 23172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-07 09:43:58.097  INFO 23172 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-03-07 09:43:58.877  WARN 23172 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-07 09:43:58.934  INFO 23172 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-03-07 09:43:59.249  INFO 23172 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-03-07 09:43:59.259  INFO 23172 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 09:43:59.332  INFO 23172 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-03-07 09:43:59.332  INFO 23172 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-03-07 09:43:59.333  INFO 23172 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-03-07 09:43:59.333  INFO 23172 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-03-07 09:43:59.333  INFO 23172 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-03-07 09:43:59.334  INFO 23172 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-03-07 09:43:59.334  INFO 23172 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-03-07 09:44:00.232  INFO 23172 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-03-07 09:44:00.243  INFO 23172 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-03-07 09:44:00.249  INFO 23172 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-07 09:44:00.261  INFO 23172 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1678162440259 with initial instances count: 1
+2023-03-07 09:44:00.276  INFO 23172 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application OWNER-SERVICE with eureka with status UP
+2023-03-07 09:44:00.277  INFO 23172 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1678162440277, current=UP, previous=STARTING]
+2023-03-07 09:44:00.353  INFO 23172 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_OWNER-SERVICE/LP-PF22GKY9.HCLT.CORP.HCL.IN:Owner-Service:8082: registering service...
+2023-03-07 09:44:00.382  INFO 23172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-03-07 09:44:00.384  INFO 23172 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2023-03-07 09:44:00.555  INFO 23172 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_OWNER-SERVICE/LP-PF22GKY9.HCLT.CORP.HCL.IN:Owner-Service:8082 - registration status: 204
+2023-03-07 09:44:01.203  INFO 23172 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-03-07 09:44:01.233  INFO 23172 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-03-07 09:44:01.253  INFO 23172 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-03-07 09:44:01.659  INFO 23172 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteByIdUsingDELETE_1
+2023-03-07 09:44:01.738  INFO 23172 --- [restartedMain] com.hcl.OwnerServiceApplication          : Started OwnerServiceApplication in 22.419 seconds (JVM running for 28.485)
+2023-03-07 09:48:59.344  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 09:50:41.664  INFO 23172 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-07 09:50:41.665  INFO 23172 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-07 09:50:41.695  INFO 23172 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2023-03-07 09:53:59.358  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 09:58:59.373  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 10:03:59.389  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 10:08:59.411  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 10:13:59.414  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 10:18:59.428  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 10:23:59.433  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 10:28:59.444  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 10:33:59.457  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 10:38:59.472  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 10:43:59.485  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 10:48:59.491  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 10:53:59.495  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 10:58:59.498  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 11:03:59.513  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 11:08:59.526  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 11:13:59.551  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 11:18:59.564  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 11:23:59.572  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 11:28:59.584  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 11:33:59.603  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-07 11:38:59.620  INFO 23172 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

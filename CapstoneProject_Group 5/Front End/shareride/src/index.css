@@ -1,0 +1,371 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  background-color: rgb(83, 13, 58);
+  width: 100%;
+  height: 70px;
+  max-width: 100%;
+  border-radius: 0px;
+}
+
+nav a {
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+img {
+  width: 70px;
+  height: 67px;
+  border-radius: 10px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+.btn {
+  margin-right: 5px;
+  margin-left: 5px;
+  color: rgb(83, 13, 58);
+}
+
+.register-div {
+  background: url("./assets/bgcar\ \(4\).png") center no-repeat;
+  background-size: cover;
+  /* background-position:inherit; */
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  /* height: 100vh; */
+  overflow: hidden;
+  color: green;
+  text-align: left;
+}
+
+.login-div {
+  background: url("./assets/bgcar\ \(4\).png") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  height: 100vh;
+  overflow: hidden;
+}
+.loginnew-div{
+  width:480px;
+  color: green;
+}
+.vehiclecreate-div{
+  background: url("../public/Assets/rx100.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  overflow: hidden;
+}
+
+.userhome-div {
+  background: rgba(0, 0, 0, 0.5)url("./assets/bgcar.png") center no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  /* height: 100vh; */
+  overflow: hidden;
+  color: white;
+  text-align: left;
+}
+.card-uh-div{
+  display: row;
+  flex-direction: row;
+}
+.active {
+  color: red;
+}
+
+.chooseride-div {
+  background: rgba(0, 0, 0, 0.5)url("./assets/bgcar.png") center no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  height: 100vh;
+  overflow: hidden;
+  color: green;
+  text-align: left;
+}
+
+.ownerhome-div {
+  background: rgba(0, 0, 0, 0.5)url("./assets/bgcar.png") center no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.owner-card-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-div {
+  background: url("./assets/bgcar\ \(3\).png")center no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  height: 100vh;
+  overflow: hidden;
+}
+.ridecreate-div{
+  background: url("../public/Assets/rx100.jpg")center no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  overflow: hidden;
+  color:rgb(83, 13, 58);
+}
+
+.head-div {
+  color: rgb(148, 3, 98);
+  margin-top: 150px;
+}
+
+.nav2-div {
+  margin-top: 5px;
+  color: green;
+  background-color: #fff;
+  width: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+  float: right;
+  margin-right: 15px;
+  /* margin-right: 15px; */
+}
+
+.head-home-div {
+  color: white;
+  text-align: center;
+}
+
+#image {
+  color: white;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
+.card-div {
+  margin-top: 50px;
+  text-align:'left';
+}
+.ridec-div{
+  text-align: left;
+  width: 300px;
+  align-items: center;
+}
+.usermsgnew-div{
+  background: url("../public/Assets/R15.jfif")center no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  color:rgb(83, 13, 58);
+}
+.card-userhome-div {
+  width: 450px;
+}
+.user-div{
+  margin-top: 10px;
+}
+.usermsg-div{
+  width:600px;
+  margin:auto;
+  margin-top:10px ;
+
+}
+
+.errmsg {
+  color: red;
+}
+
+.form-div {
+  margin-top: 10px;
+}
+
+#logout {
+  float: right;
+}
+
+.nav-home-div {
+  text-decoration: none;
+}
+
+.card-chooseride-div {
+  margin-top: 50px;
+
+}
+
+.search-div {
+  align-items: center;
+  margin-left: 450px;
+  margin-top: 8px;
+}
+
+.Aboutus {
+  background: rgba(31, 30, 30, 0.5)url("./assets/iPhone.jpg") center no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  height: 100vmax;
+  overflow: hidden;
+  color: rgb(245, 242, 242);
+}
+.ContactUs {
+  background: rgba(172, 170, 170, 0.5)url("./assets/contact-1.jpg")center no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  color:black;
+}
+.contact-div{
+  margin-top: 80px;
+}
+.btn-div{
+  margin-left: 40px;
+}
+.addloc-table-div{
+  margin-top: 100px;
+  width:500px;
+  align-items: center;
+  margin-left: 390px;
+}
+.addloc-head-div{
+  margin-top: 100px;
+}
+.userhome-filter-div{
+  /* background-color:white; */
+  text-align: left;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.vehicledetails-div{
+  background: rgba(15, 15, 15, 0.5)url("../public/Assets/rangerover.jfif")center no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  color:black;
+}
+.availablevehicle-div{
+  background: rgba(15, 15, 15, 0.5)url("../public/Assets/KIA.jpg")center no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  color:black;
+}
+.confirmride-div{
+  background: rgba(15, 15, 15, 0.5)url("../public/Assets/verna.jpg")center no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  color:#fff;
+}
+.userbookd-div{
+  background: rgba(15, 15, 15, 0.5)url("../public/Assets/XUV.jpg")center no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  color:#fff;
+}
+.userbookhead-div{
+  color:black;
+  margin-top: 100px;
+}
+.form1-div{
+  width: 300px;
+  margin: auto;
+  margin-top: 200px;
+}
+.ridedetails-div{
+  background: rgba(15, 15, 15, 0.5)url("../public/Assets/duke.jpg")center no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  color:black;
+}
+.vdbody-div{
+  color: #fff;
+  /* background-color: white; */
+}
+/* .grid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    
+}
+.dish-div
+{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+} */
+.card-container{
+  margin: 3rem auto;
+  width:100%;
+  max-width: 1200px;
+}
+@media screen and (min-width:992px){
+  .card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1.5rem;
+  }
+}
