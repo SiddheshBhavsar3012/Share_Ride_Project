@@ -14,9 +14,9 @@ To need start this application you need to some configuration
 		
 		You will see the data like below
 
-		BOOKING-SERVICE	n/a (1)	(1)	UP (1) - LP-PF22GKY9.HCLT.CORP.HCL.IN:Booking-Service:8084
-		MESSAGE-SERVICE	n/a (1)	(1)	UP (1) - LP-PF22GKY9.HCLT.CORP.HCL.IN:Message-Service:8085
-		OWNER-SERVICE	n/a (1)	(1)	UP (1) - LP-PF22GKY9.HCLT.CORP.HCL.IN:Owner-Service:8082
-		USER-SERVICE	n/a (1)	(1)	UP (1) - LP-PF22GKY9.HCLT.CORP.HCL.IN:User-Service:8083
+		BOOKING-SERVICE	n/a (1)	(1)	UP (1) - Machine:Booking-Service:8084
+		MESSAGE-SERVICE	n/a (1)	(1)	UP (1) - Machine:Message-Service:8085
+		OWNER-SERVICE	n/a (1)	(1)	UP (1) - Machine:Owner-Service:8082
+		USER-SERVICE	n/a (1)	(1)	UP (1) - Machine:User-Service:8083
 	6 Then open the shareride app and put command ->npm install 
 	7 Again put npm start command in terminal
